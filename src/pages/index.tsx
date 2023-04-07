@@ -1,7 +1,5 @@
+import { Heading } from '@ntn-ui/react'
+
 export default function Home() {
-  return (
-    <h1>
-      hello
-    </h1>
-  )
+  return <Heading>hello</Heading>
 }
