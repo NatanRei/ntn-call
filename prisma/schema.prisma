@@ -67,7 +67,7 @@ model UserTimeInterval {
 }
 
 model Scheduling {
-  is           String   @id @default(uuid())
+  id           String   @id @default(uuid())
   date         DateTime
   name         String
   email        String
