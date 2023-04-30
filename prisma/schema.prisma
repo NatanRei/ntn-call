@@ -71,7 +71,7 @@ model Scheduling {
   date         DateTime
   name         String
   email        String
-  obvervations String?
+  observations String?
   created_at   DateTime @default(now())
 
   user    User   @relation(fields: [user_id], references: [id])
